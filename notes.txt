@@ -123,4 +123,4 @@ state:
 
 class:-
 *******
-- class component is having 
+- class component is having              

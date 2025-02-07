@@ -63,16 +63,27 @@
 //       </div>
 //     )
 //   }
+// // }
+// import React from 'react'
+// import CBCStateEx from './stateexample/CBCStateEx'
+// import FBCStateEx from './stateexample/FBCStateEx'
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCStateEx/>
+//     </div>
+//   )
 // }
-import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
-import FBCStateEx from './stateexample/FBCStateEx'
-const App = () => {
+
+// export default App
+
+import FunctionalComponent from './components/FunctionalComponent'
+function App  ()  {
   return (
-    <div>
-      <FBCStateEx/>
+    <div className='App'>
+    <FunctionalComponent/>
     </div>
   )
 }
 
-export default App
+export default App;
