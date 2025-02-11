@@ -77,13 +77,26 @@
 
 // export default App
 
-import FunctionalComponent from './components/FunctionalComponent'
-function App  ()  {
+// import FunctionalComponent from './components/FunctionalComponent'
+// function App  ()  {
+//   return (
+//     <div className='App'>
+//     <FunctionalComponent/>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+import React from 'react'
+import RefExamples from './hookexamples/RefExamples'
+const App = () => {
   return (
-    <div className='App'>
-    <FunctionalComponent/>
+    <div>
+      {/* <UseEffectEx/> */}
+      <RefExamples/>
     </div>
   )
 }
 
-export default App;
+export default App
