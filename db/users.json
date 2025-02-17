@@ -1,0 +1,20 @@
+{
+    "users": [
+      {
+        "name": "Jahnavi",
+        "age": 21,
+        "college": "ABC University"
+      },
+      {
+        "name": "Keerthana",
+        "age": 22,
+        "college": "XYZ College"
+      },
+      {
+        "name": "Piyush",
+        "age": 23,
+        "college": "LMN Institute"
+      }
+    ]
+  }
+  
